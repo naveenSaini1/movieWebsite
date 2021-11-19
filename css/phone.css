@@ -1,0 +1,100 @@
+/* movies menus buttons  */
+@media only screen and (max-width: 1110px) {
+
+
+    .menu-item li {
+        padding: 7px 2rem;
+    }
+    .movies-request-btn{
+        margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 910px) {
+    .menu-item li {
+        padding: 7px 1rem;
+    }
+    .movies-request-btn{
+        margin-left: 10px;
+    }
+  }
+@media only screen and (max-width:884px)
+{
+    .moies-search-bar {
+        order: 2;
+
+    }
+    .moies-search-bar input {
+        width: 12rem;
+    }
+    .movies-request-btn{
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .nav{
+        display: block;
+    }
+    .nav-break{
+        width: 100%;
+        justify-content: center;
+    }
+    .menu {
+        background-color: #343a40!important;
+        width: 100%;
+        /* height: 2.6rem; */
+    }
+    .menu-item li {
+        border: none;
+        padding: 2px 0px;
+    }
+    .menu-item{
+        display: block;
+        text-align: center;
+    }
+    .menu-item li a{
+        display: none;
+    }
+    .moies-search-bar {
+        order: 0;
+    }
+    .movies-request-btn h3 a{
+        font-size: 17px;
+        padding: 3px 0px;
+    }
+    .navigation-bar{
+        display: block;
+    }
+}
+@media only screen and (max-width:330px){
+    .nav-break {
+        display: block;
+    }
+    .nav{
+        text-align: center;
+    }
+}
+
+
+/* ------------------------------------ new update movies  */
+@media only screen and (max-width: 490px){
+    .all-content {
+        justify-content: center;
+    }
+    
+    .footer-disclamier {
+        display: block;
+    } 
+    .card{
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    
+}
+/* /////////////////////////////// sub movies  */
+@media only screen and (max-width: 790px){
+    .advertis-detail-part{
+        display: none;
+    }
+}

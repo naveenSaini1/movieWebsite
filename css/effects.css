@@ -1,0 +1,50 @@
+/* menu bar styling  */
+.menu-item li::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    top: 0px;
+    border: 0px solid #FF8D1B;;
+    left: 0px;
+    
+}
+.menu-item li:hover::before{
+    width: 100%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-width:1px;
+}
+
+.menu-item li::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    border: 0px solid #FF8D1B;;
+    bottom: 0px;
+    right: 0px;
+}
+.menu-item li:hover::after{
+    width: 100%;
+    transition: all 1s ease-in-out;
+    /* left: 0px; */
+    border-width:1px;
+}
+
+.menu-item li:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    
+    background-color: #08a100;
+
+}
+/* ---------------------------------------------footer styling */
+.footer-copy-menu ul li:hover{
+    background-color: aqua;
+    transition-duration:1s ;
+    color: black !important;
+}
+.tim{
+     transition-duration: 2s; 
+    
+
+ } 

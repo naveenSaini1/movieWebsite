@@ -1,0 +1,362 @@
+/* .wrper::-webkit-scrollbar{
+    width: 0px;
+} */
+/* bode */
+body{
+    background-color: black;
+}
+/* reset css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------------------- utility section start  */
+/* text-styel for tietle */
+.text-style{
+    text-transform: capitalize;
+    
+}
+/* text decoration for achor tag  */
+.text-deco {
+    text-decoration: none;
+}
+.card{
+    width: 13rem;
+    /* background-color: white; */
+    margin: 7px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 2s;
+    color: white;
+    border: 2px solid #5a564d;
+
+    }
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card:hover{
+    background-color: rgb(212 212 212 / 52%);
+    transform: rotateY(
+20deg);
+transform: rotateX(
+    20deg);
+}
+
+.card img{
+    width: 11rem;
+    margin: 9px 5px;
+
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+.card h2{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: 'Roboto Condensed';
+}
+/* --------------------------------utility section end  */
+
+/* ---------------------------- styiling here of nave bar  */
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    padding: 1rem;
+box-sizing: border-box;
+align-items: center;
+}
+.nav-break{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 54rem;
+}
+.movies-heading h1{
+    font-size: 2.2rem;
+color: blueviolet;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 1px;
+font-weight: 900 !important;
+    font-family: monospace;
+}
+.movies-heading h1 span{
+    color: #007cd4;
+}
+.moies-search-bar {
+    display: flex;
+}
+.moies-search-bar input{
+    width: 24rem;
+    height: 2rem;
+    padding: 1.1rem;
+    border-radius: 16px;
+    border-style: groove;
+    font-size: 1.3rem;
+    order: 1;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.moies-search-bar label{
+    order: 2;border: 2px solid;
+    width: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.moies-search-bar i{
+    /* padding: 7px; */
+    font-size: 2rem;
+}
+
+.movies-request-btn h3 a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #08a100;
+    text-align: center;
+    padding: 6px 30px;
+    font-weight: bold;
+    letter-spacing: 0px;
+ border: none;
+}
+/* ------------------------------------- styling here of nav bar menus  */
+.nav-bar{
+    /* border: 2px solid rgb(156, 138, 138); */
+    background-color: #ababab!important;
+}
+.menu{
+
+}
+.menu-item{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    /* justify-content: space-between; */
+}
+.menu-item li{
+    list-style: none;
+    padding: 7px 3rem;
+    border: 1px solid;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: cursive;
+    background-color: #273442;;
+    margin-bottom: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all 3s ease-in-out;
+    
+}
+.navigation-bar {
+    font-size: 2rem;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+    margin-top: 1rem ;
+}
+/* -----------------------------image slider  */
+.main-div-slider {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    background: #423f3f;
+}
+.main-div-slider-slider{
+    margin: auto;
+    display: flex;
+    padding: 0px 3px;
+    overflow-x: scroll; 
+}
+#slider::-webkit-scrollbar{
+    overflow: hidden;
+    background: black;
+}
+
+.main-div-slider-slider img{
+    height: 9rem;
+     animation: about infinite ease-in-out;
+     animation-duration: 20s;
+     animation-direction:alternate ;
+
+}
+
+.main-div-slider-slider a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+#slider{
+    width: 100vw;
+   
+
+
+}
+@keyframes about{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-250px);
+    }
+}
+
+/* ----------------------------------------------------latest webseries  */
+.new-release-heading{
+    margin-bottom: 1rem;
+
+}
+.new-release-poster{
+    
+}
+.all-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+
+}
+.new-release-heading h2{
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 2.2rem;
+    background: #08a100;
+    padding: 9px 0px;
+    font-family: 'Roboto Condensed';
+}
+/* -------------------------------------------- footer start  */
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-keywords{
+    width: 100%;
+    background-color: #423f3f;
+    box-sizing: border-box;
+    order: 2;
+    margin-top: 1rem;
+    
+}
+.footer-keywords p{
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.footer-keywords p span{
+    color: red;
+}
+
+
+.footer-menus{
+    width: 100%;
+    background-color: rgb(119 91 91 / 30%);
+    order: 1;
+    margin-top: 10rem;
+}
+.footer-menus ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    padding: 3rem .5rem;
+}
+.footer-menus ul li a{
+    text-decoration: none;
+    color: rgb(6, 21, 233);
+    padding: 3px;
+    background-color: gray;
+    font-size: 1.2rem;
+    font-family: monospace;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all;
+    transition-duration: 1s;
+}
+.footer-menus ul li a:hover{
+    /* color: #FF8D1B; */
+    color: black;
+
+    background-color: #ffffff;
+
+}
+
+.footer-disclamier{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0rem;
+    justify-content: space-between;
+    background-color: #08a100;
+    opacity: 0.8;
+    order: 4;
+    margin-top: 1rem;
+}
+.footer-copy{
+    /* flex-basis: 48%; */
+    
+}
+
+.footer-copy h6 {
+    color: black;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-align: center;
+}
+.footer-copy-menu {
+    /* flex-basis: auto; */
+    /* text-align: center; */
+    /* flex-direction: ; */
+}
+.footer-copy-menu  ul{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.footer-copy-menu ul li{
+    list-style: none;
+    padding: 7px 2rem;
+    border: 1px solid;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    background-color: #343a40;
+    margin:8px;
+}
+.footer-copy-menu ul a{
+    text-decoration: none;
+     color: white;
+    
+}
+
+a:current{
+    color: black;
+}

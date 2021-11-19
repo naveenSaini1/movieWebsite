@@ -1,0 +1,216 @@
+/* title */
+.sub-movie{
+
+    background-color: #343a40;
+}
+.sub-movie h2{
+    font-size: 2rem;
+    margin: 1rem 0px;
+    font-style: oblique;
+    color: aqua;
+    text-align: center;
+
+}
+.first-movie-title{
+    width: 100%;
+    border: 2px solid gray;
+}
+.first-movie-title h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+}
+/* movie page styling */
+.two-part-website{
+    display: flex;
+}
+.movie-detail-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.movie-website-center{
+    display: flex;
+    justify-content: center;
+}
+.center-text{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    gap: 15px;
+}
+.center-text h3{
+    color: #b7d800;
+    border: 1px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    background: #4a1509;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
+}
+.center-text p{
+    font-family: cursive;
+    text-align: center;
+}
+
+/* imgae div  */
+.movie-detail-img{
+    width: 20rem;
+}
+.movie-detail-img img{
+    width: 100%;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+
+}
+
+
+/* about movie div tag styling  */
+
+.movie-detail-full
+{
+    border: 9px solid gray;
+    padding: 3rem;
+    background: burlywood;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+.mvoie-info{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed';
+    font-variant: common-ligatures;
+    display: block;
+text-decoration:underline;
+}
+
+/* ////////////////////////////// download div styling */
+.download-links{
+    padding: 1rem;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+}
+.download-links div {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.download-links div a{
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #000000;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #e0e0e0;
+    -webkit-box-shadow: 0px 0px 2px 0px #000000;
+    -moz-box-shadow: 0px 0px 2px 0px #000000;
+    box-shadow: 0px 0px 2px 0px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+
+    box-sizing: border-box;
+    display: block;
+
+}
+.download-links h2{
+    font-size: 1.9rem;
+    color: #9797ff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+
+}
+.download-links span{
+    color: rgba(223, 25, 25, 0.6);
+    font-size: 1.8rem;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ movie story plot  */
+.movie-story-plot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+.movie-story-plot h2{
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: wheat;
+    text-shadow: 10% 10% 3% palevioletred;
+    filter: none;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1rem 0rem;
+    text-align: center;
+
+}
+.movie-story-plot p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-variant: all-petite-caps;
+    color: chocolate;
+    margin: 1rem 0rem;
+    text-align: center;
+
+}
+.movie-story-plot span{
+    color: gold;
+    text-align: center;
+}
+
+
+
+
+
+/* /////////////////////////////////////mvoe details part2 */
+.advertis-detail-part{
+    flex-basis: 30%;
+    width: 70rem;
+    height: 35rem;
+    background-color: rgb(248, 248, 250);
+    margin-right: 1rem;
+    border-radius: 6px;
+}
+.advertis-detail-part p{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed';
+    border: 1px solid beige;
+}
+.advertis-detail-part .adverties-i{
+    width: 17rem;
+    height: 28rem;
+    /* background: green; */
+    border: 2px solid;
+    padding: 0rem 1rem;
+    margin: 10px;
+}
+
+
